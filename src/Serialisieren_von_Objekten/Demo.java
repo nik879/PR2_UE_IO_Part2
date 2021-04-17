@@ -1,3 +1,5 @@
+package Serialisieren_von_Objekten;
+
 public class Demo {
     public static void main(String[] args) {
         Person Niki = new Person("Niki", "Kachelmaier", 22);
@@ -10,7 +12,7 @@ public class Demo {
         pm.addPerson(Hannes);
         pm.addPerson(Lena);
 
-        pm.savePerson("C:\\Users\\nikik\\Desktop\\personen.txt");
+        pm.savePerson("C:\\Users\\nikikachelmaier\\Desktop\\personen.txt");
 
     }
 }

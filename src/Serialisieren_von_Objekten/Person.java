@@ -1,3 +1,5 @@
+package Serialisieren_von_Objekten;
+
 import java.io.Serializable;
 
 public class Person  implements Serializable {
@@ -12,7 +14,7 @@ public class Person  implements Serializable {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Serialisieren_von_Objekten.Person{" +
                 "Vorname='" + Vorname + '\'' +
                 ", Nachname='" + Nachname + '\'' +
                 ", Alter=" + Alter +

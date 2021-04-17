@@ -1,3 +1,5 @@
+package Serialisieren_von_Objekten;
+
 import java.io.*;
 import java.util.ArrayList;
 
